@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/layout.css">
         <script src="js/three.js"></script>
         <script src="js/OrbitControls.js"></script>
+        
 
     </head>
 
@@ -13,11 +14,18 @@
         <div id="info">
             <H1>Computer Graphics Demo</H1>
         </div>
+        <div id="param">
+            <textarea id="speed"></textarea>
+            <button id="set" onclick="setClick()">Set Speed</button>
+            <textarea id="size"></textarea>
+            <button id="set" onclick="sizeClick()">Set Size</button>
+        </div>
 
-        <script src="labs/lab03/setup.js"></script>
-        <script src="labs/lab03/build.js"></script>
-        <script src="labs/lab03/animate.js"></script>
-        <script src="labs/lab03/run.js"></script>
+        <script src="labs/procgen/setup.js"></script>
+        <script src="labs/procgen/build.js"></script>
+        <script src="labs/procgen/animate.js"></script>
+        <script src="labs/procgen/run.js"></script>
+        <script src = "labs/procgen/controller.js"></script>
     </body>
 
 </html>

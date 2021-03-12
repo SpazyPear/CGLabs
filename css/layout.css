@@ -14,3 +14,11 @@ h1 {
     width: 100%;
     padding: 10px 5px;
 }
+
+button {
+    padding: 1px 30px;
+}
+
+textarea {
+   padding: 1px 1px;
+}
